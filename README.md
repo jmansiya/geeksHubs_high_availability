@@ -1,2 +1,2 @@
 # high-availability
-- Deploy App high availability
+Deploy App high availability
