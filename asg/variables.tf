@@ -141,7 +141,7 @@ variable "creator" {
 }
 variable "application" {
   description = "Deploymented by"
-  default     = "Jose Mansilla"
+  default     = "Mansilla"
 }
 variable "terraform" {
   description = "Terraform Template"
