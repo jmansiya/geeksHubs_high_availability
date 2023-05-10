@@ -109,13 +109,13 @@ variable "stickiness_enabled" {
 ## ASG CAPACITY ##
 ##################
 variable "max_size" {
-  default = "2"
+  default = "1"
 }
 variable "min_size" {
-  default = "2"
+  default = "1"
 }
 variable "desired_capacity" {
-  default = "2"
+  default = "1"
 }
 variable "health_check_grace_period" {
   default = "300"
@@ -133,15 +133,15 @@ variable "env" {
 }
 variable "project" {
   description = "Project name"
-  default     = "mc33"
+  default     = "ha0523"
 }
 variable "creator" {
   description = "Deploymente by"
   default     = "DevOps Team"
 }
 variable "application" {
-  description = "Deploymente by"
-  default     = "ha"
+  description = "Deploymented by"
+  default     = "Mansilla"
 }
 variable "terraform" {
   description = "Terraform Template"
