@@ -133,7 +133,7 @@ variable "env" {
 }
 variable "project" {
   description = "Project name"
-  default     = "ha0523"
+  default     = "ha130523"
 }
 variable "creator" {
   description = "Deploymente by"
