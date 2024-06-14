@@ -133,7 +133,7 @@ variable "env" {
 }
 variable "project" {
   description = "Project name"
-  default     = "haDemoDiciembre2023"
+  default     = "haDemoJunio2024"
 }
 variable "creator" {
   description = "Deploymente by"
@@ -141,7 +141,7 @@ variable "creator" {
 }
 variable "application" {
   description = "Deploymented by"
-  default     = "Mansilla"
+  default     = "Jose"
 }
 variable "terraform" {
   description = "Terraform Template"
